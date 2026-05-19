@@ -1,9 +1,9 @@
 # System Zarządzania Konferencjami (ConferenceDB)
 
-**Autor:** Oliwia Kołacz
-**Indeks:** 83099
-**Przedmiot:** Zaawansowane Technologie Bazodanowe
-**Stos technologiczny:** MS SQL Server 2022 (Docker) / Python 3 / Streamlit / pyodbc
+**Autor:** Oliwia Kołacz  
+**Indeks:** 83099  
+**Przedmiot:** Zaawansowane Technologie Bazodanowe 
+**Stos technologiczny:** MS SQL Server 2022 (Docker) / Python 3 / Streamlit / pyodbc 
 
 ## Opis
 
@@ -35,8 +35,8 @@ Aplikacja dostępna pod `http://localhost:8501`.
 |---|---|---|
 | 1 | Tabele | W projekcie jest **10 tabel**: `Conferences`, `Tracks`, `Rooms`, `Speakers`, `Sessions`, `Attendees`, `TicketTypes`, `Tickets`, `SessionRegistrations`, `PriceHistory`. |
 | 2 | Rekordy| Każda tabela ma co najmniej 10 rekordów (np. 10 konferencji, 15 uczestników, 12 prelegentów, 14 sesji, 19 biletów, 27 zapisów na sesje). |
-| 3 | PRIMARY KEY | Każda tabela ma PK na kolumnie `ID`. |
-| 4 | FOREIGN KEY | Zawiera 11 FK. | 
+| 3 | PRIMARY KEY | Każda tabela ma kluczy głównych na kolumnie `ID`. |
+| 4 | FOREIGN KEY | Zawiera 11 kluczy obcych. | 
 | 5 | UNIQUE | Zawiera 11 ograniczeń unikalności na kolumnach. | 
 | 6 | CHECK | Zawiera 16 ograniczeń warunkowych. |
 | 7 | DEFAULT | Zawiera 11 wartości domyślnych. |
