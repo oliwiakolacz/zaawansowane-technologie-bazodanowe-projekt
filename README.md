@@ -2,8 +2,8 @@
 
 **Autor:** Oliwia Kołacz  
 **Indeks:** 83099  
-**Przedmiot:** Zaawansowane Technologie Bazodanowe 
-**Stos technologiczny:** MS SQL Server 2022 (Docker) / Python 3 / Streamlit / pyodbc 
+**Przedmiot:** Zaawansowane Technologie Bazodanowe  
+**Technologia:** MS SQL Server 2022 (Docker) / Python 3 / Streamlit / pyodbc
 
 ## Opis
 
